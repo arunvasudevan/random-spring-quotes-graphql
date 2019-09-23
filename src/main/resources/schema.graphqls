@@ -1,0 +1,13 @@
+type Query {
+	getRandomQuote: Quote
+}
+
+type Quote {
+	type: String
+	value: Value
+}
+
+type Value {
+	id: Int
+	quote: String
+}
